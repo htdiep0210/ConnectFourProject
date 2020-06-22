@@ -162,5 +162,9 @@ function checkForWin() {
   }
 }
 
+function refreshPage(){
+  window.location.reload();
+} 
+
 makeBoard();
 makeHtmlBoard();
