@@ -91,7 +91,7 @@ function placeInTable(y, x) {
 /** endGame: announce game end */
 
 function endGame(msg) {
-  window.setTimeout() => {alert('Game Over! Please Start New Game!'), 0;
+  window.setTimeout(function() {alert('Game Over! Please Start New Game!')}), 0;
   // TODO: pop up alert message
 }
 
